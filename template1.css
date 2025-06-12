@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.resume-section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    color: #333;
+}
+
+.resume-section h1 {
+    font-size: 2rem;
+    color: #4facfe;
+}
+
+.resume-section h2 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #4facfe;
+    padding-bottom: 5px;
+}

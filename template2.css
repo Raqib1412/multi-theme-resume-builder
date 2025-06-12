@@ -1,0 +1,21 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #ffffff;
+}
+
+.resume-section {
+    border: 2px solid black;
+    padding: 2rem;
+    color: black;
+}
+
+.resume-section h1 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.resume-section h2 {
+    font-size: 1.4rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}

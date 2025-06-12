@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Resume Builder</title>
+    <link id="templateLink" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Personal Information</h2>
+            <input id="name" type="text" placeholder="Your Full Name">
+            <input id="mobile" type="text" placeholder="Mobile Number">
+            <input id="linkedin" type="text" placeholder="LinkedIn ID">
+            <input id="email" type="email" placeholder="Email ID">
+            <input id="github" type="text" placeholder="GitHub Link">
+            <input id="portfolio" type="text" placeholder="Portfolio Link (Optional)">
+
+            <h2>Experience</h2>
+            <textarea id="experience" placeholder="Experience Details"></textarea>
+
+            <h2>Education</h2>
+            <div id="education-container">
+                <div class="education-entry">
+                    <input type="text" placeholder="Institution Name">
+                    <input type="text" placeholder="Degree/Course">
+                    <input type="text" placeholder="Year of Start">
+                    <input type="text" placeholder="Year of Completion">
+                    <input type="text" placeholder="Aggregate/Percentage">
+                </div>
+            </div>
+            <button id="add-education">Add More Education</button>
+
+            <h2>Projects</h2>
+            <div id="projects-container">
+                <div class="project-entry">
+                    <input type="text" placeholder="Project Title">
+                    <textarea placeholder="Project Description"></textarea>
+                </div>
+            </div>
+            <button id="add-project">Add More Projects</button>
+
+            <h2>Extra-Curricular Activities</h2>
+            <div id="activities-container">
+                <div class="activity-entry">
+                    <textarea placeholder="Activity Description"></textarea>
+                </div>
+            </div>
+            <button id="add-activity">Add More Activities</button>
+
+            <h2>Skills</h2>
+            <div id="skills-container">
+                <div class="skill-entry">
+                    <input type="text" placeholder="Skill Name">
+                </div>
+            </div>
+            <button id="add-skill">Add More Skills</button>
+
+            <h2>Certifications</h2>
+            <input id="certifications" type="text" placeholder="Certifications (comma separated)">
+
+            <h2>Font Customization</h2>
+            <label for="fontSizeSelector">Font Size:</label>
+            <select id="fontSizeSelector">
+                <option value="small">Small</option>
+                <option value="medium" selected>Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="fontColorPicker">Font Color:</label>
+            <input type="color" id="fontColorPicker" value="#000000">
+
+            <label for="fontFamilySelector">Font Family:</label>
+            <select id="fontFamilySelector">
+                <option value="Poppins" selected>Poppins</option>
+                <option value="Roboto">Roboto</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+            </select>
+
+            <h2>Template Selection</h2>
+            <label for="templateSelector">Choose Template:</label>
+            <select id="templateSelector">
+                <option value="style.css" selected>Default Template</option>
+                <option value="template1.css">Modern Template</option>
+                <option value="template2.css">Classic Template</option>
+            </select>
+
+            <button id="download">Download PDF</button>
+        </div>
+
+        <div class="resume-section" id="resume">
+            <!-- Live preview will go here -->
+        </div>
+    </div>
+
+    <!-- Chatbot Popup Button -->
+    <div class="chatbot-button" id="chatbotToggle">Chat</div>
+
+    <!-- Chatbot Popup -->
+    <div class="chatbot-popup" id="chatbotPopup">
+        <div class="chat-header">AI Prompt Generator <span id="closeChat">×</span></div>
+        <div class="chat-messages" id="chatMessages"></div>
+
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Describe your work...">
+            <button id="generateBtn">Generate Prompt</button>
+        </div>
+
+        <div class="generated-prompt" id="generatedPrompt"></div>
+        <button id="copyPromptBtn">Copy Prompt</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="promptgen.js"></script>
+</body>
+</html>
