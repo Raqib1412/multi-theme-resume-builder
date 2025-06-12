@@ -20,4 +20,4 @@ Deployed link: https://raqibs-resumebuilder.netlify.app
 ## Getting Started
 Clone the repository:
 ```bash
-git clone https://github.com/Raqib1412/your-repo-name.git
+git clone https://github.com/Raqib1412/multi-theme-resume-builder
