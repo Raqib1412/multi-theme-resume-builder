@@ -11,7 +11,7 @@ An advanced, multi-template resume builder with AI support. This project allows 
 - Mobile-responsive design (optional step)
 
 ## Live Demo
-_Deployed link: Coming soon_
+Deployed link: https://raqibs-resumebuilder.netlify.app
 
 ## Technologies Used
 - HTML, CSS, JavaScript
