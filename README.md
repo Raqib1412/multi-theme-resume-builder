@@ -1,2 +1,23 @@
-# multi-theme-resume-builder
-An AI-powered multi-template resume builder with real-time preview, font customization, and dynamic sections. Includes an AI prompt generator and PDF download feature.
+# AI-Powered Resume Builder
+An advanced, multi-template resume builder with AI support. This project allows users to create professional, ATS-friendly resumes with real-time preview, font customization, template switching, and dynamic section management. Includes an AI-powered prompt generator to assist users in creating impactful resume content.
+
+## Features
+- Multi-template selection
+- Font customization (size, color, family)
+- Dynamic sections: Education, Projects, Skills, Experience, Certifications
+- Real-time resume preview
+- AI-powered prompt generator (chatbot)
+- PDF download functionality
+- Mobile-responsive design (optional step)
+
+## Live Demo
+_Deployed link: Coming soon_
+
+## Technologies Used
+- HTML, CSS, JavaScript
+- html2pdf.js (PDF Export)
+
+## Getting Started
+Clone the repository:
+```bash
+git clone https://github.com/Raqib1412/your-repo-name.git
